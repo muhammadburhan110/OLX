@@ -1,0 +1,182 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+
+.header, 
+.footer{
+    padding: 20px;
+    padding-left: 80px;
+    background-color: #f7f8f8;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+.header-bottom-bar{
+    padding: 20px;
+    padding-left: 80px;
+    box-shadow: 0 1px 1px #00000000;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.top-bar-items{
+    display: inline-block;
+    padding: 10px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+.header-bottom{
+    padding-top: 10px;
+}
+
+.select-input{
+    padding: 10px;
+    width: 200px;
+}
+.search{
+    width: 40vw;
+}
+.fa-magnifying-glass{
+    background-color: #002f34;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.sell-button{
+    margin-left: 40px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #fff;
+    border-bottom: 3px solid #3a77ff;
+    border-top: 3px solid #3a77ff;
+    border-left: 3px solid #ffce32;
+    border-right: 3px solid #23e5db;
+
+}
+.top-bar-icons{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.li-menu{
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 0.8em;
+}
+
+.li-menu:hover{
+    cursor: pointer;
+    color: #46aca9;
+}
+.txt-bold{
+    font-weight: bold;
+}
+.myslides{
+   
+    width: 100%;
+    border-radius: 5px;
+}
+.header-ad ,
+.cat-area ,
+.classified-cards-area{
+    padding: 0 80px;
+    margin-top: 10px;
+
+}
+
+.cat-card{
+    max-width: 250px;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px 20px;
+    padding-right: 10px; 
+    margin-left: 0;
+}
+
+.cat-card  img {
+   width: 80px;
+}
+
+.ad-card{
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #bfbfbf;
+    width: 300px;
+    margin: 20px 5px;
+    border-radius: 5px;
+    overflow: hidden;
+   
+}
+
+.pricing{
+    padding: 10px;
+    font-weight: bold;
+    object-fit: cover;
+}
+
+.ad-desc,
+.location{
+    padding: 10px;
+}
+
+.ad-card img {
+    max-width: 100%;
+    height: 150px;
+}
+
+.heart-icon{
+    float: right;
+}
+
+.small-txt{
+    font-size: 10px;
+    color: gray;
+    margin-top: 5px;
+}
+.bottom-link image{
+    width: 100%;
+}
+.footer-links-head{
+    margin-bottom: 10px;
+}
+.footer-links::marker{
+    list-style-type: none;
+    margin-bottom: 3px;
+    color: #6c6c6c;
+}
+.footer-column{
+    margin-right: 20px;
+    display: inline-block;
+    width: 20%;
+}
+.footer-column2{
+    width: 20%;
+}
+.social-footer-links{
+    margin-right: 10px;
+}
+.appDownloadImages{
+    margin-top: 5px;
+}
+.footer-credit{
+    text-align: end;
+    color: #fff;
+}
+.footer-credit-bg{
+
+    background-color: #002f34;
+
+}
+.footer-credit-p{
+    color: #fff;
+}
